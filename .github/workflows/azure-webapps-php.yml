@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'hho-orphans'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_276777841F2B4B119F71058CC21A9D1D }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_6a5b942ea9b4486ea8ba902655479ee6 }}
           package: .
